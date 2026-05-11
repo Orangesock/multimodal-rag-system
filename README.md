@@ -18,10 +18,11 @@ A fully local, end-to-end Retrieval-Augmented Generation (RAG) pipeline for comp
 
 Evaluated on a synthetically generated 100-question Golden Set using the automated LLM-as-a-Judge pipeline (Retrieval Depth / Top-K = 3).
 
-| Metric |              | Score | Description |
-| Semantic Hit Rate     | 81.0% | The search engine successfully retrieved chunks with the factual answer. |
-| Exact Match Hit Rate  | 60.0% | The search engine retrieved the exact original source chunk ID. |
-| Faithfulness          | 60.0% | The generated response was fully grounded in the retrieved text, avoiding hallucinations. |
+| Metric | Score | Description |
+| :--- | :--- | :--- |
+| **Semantic Hit Rate** | 81.0% | The search engine successfully retrieved chunks with the factual answer. |
+| **Exact Match Hit Rate** | 60.0% | The search engine retrieved the exact original source chunk ID. |
+| **Faithfulness** | 60.0% | The generated response was fully grounded in the retrieved text, avoiding hallucinations. |
 
 ## Tech Stack
 
